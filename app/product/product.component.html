@@ -1,0 +1,78 @@
+<!-- grid -->
+<div class="grid-view" *ngIf = " view ==='grid' ">
+
+    <div class="card ">
+        <div class="card-header">
+        Header
+        </div>
+
+        <div>
+            <img src="../../assets/Images/Baner/Baner_Grocery.jpg" alt="" class="card-img-top">
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title title">Title</h5>
+            <h6 class="card-subtitle my-2 text-primary">12 products are available</h6>
+            <p class="card-text description">description</p>
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title text-success">
+                Final price
+                <span class="text-primary">
+                    -20%
+                </span>
+            </h5>
+            <h6 class="card-subtitle text-danger text-decoration-line-through">
+                Original price
+            </h6>
+        </div>
+
+        <div class="card-footer d-grid gap-2">
+            <button class="btn btn-outline-success" type="button">Add to cart</button>
+        </div>
+    </div>
+
+</div>
+
+<!--list-->
+<div class="grid-view" *ngIf = " view ==='list' ">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-4 overflow-hidden d-flex justify-content-center align-items-center">
+                <img src="../../assets/Images/Baner/Baner_Mobile.jpg" class="img-fluid rounded-start" alt="Product image">
+            </div>
+            <div class="col d-flex flex-column">
+                <div class="card-header text-center">
+                    header
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title">Title</h5>
+                    <p class="card-text description">description</p>
+                    <h6 class="card-subtitle mb-3 text-primary">11 products are available</h6>
+                    
+                </div>
+        
+                <div class="card-body">
+                    <h4 class="card-title text-muted">Pricing</h4>
+                    <h2 class="card-title text-success">
+                        Final price
+                        <span class="text-primary">
+                            -20%
+                        </span>
+                    </h2>
+                    <h6 class="card-subtitle text-danger text-decoration-line-through">
+                        Original price
+                    </h6>
+                </div>
+                <div class="card-footer text-muted d-grid gap-2">
+                    <button class="btn btn-outline-success" type="button">Add to cart</button>
+                </div>
+        
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- card items view -->
